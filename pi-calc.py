@@ -1,6 +1,6 @@
 import math
 pie = 0
-drange1 = list(range(1,22000,2)) # The bigger the max number, the more accurate this is
+drange1 = list(range(1,22000,2)) # The bigger the range's max value, the more accurate this is
 drange2 = drange1[1::2]
 
 for i in drange2:  # We don't want repeated digits
